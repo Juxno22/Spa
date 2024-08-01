@@ -38,7 +38,7 @@ header h1 {
 .content {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .section {
@@ -72,10 +72,12 @@ button {
 button.add {
     background-color: #8bc34a;
     color: #fff;
+    font-weight: bold;
 }
 
 button.add:hover {
     background-color: #7cb342;
+    text-decoration: none;
 }
 
 button.remove {
